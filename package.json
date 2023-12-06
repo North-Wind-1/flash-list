@@ -90,6 +90,7 @@
     "!harmony/oh_modules",
     "!harmony/**/build",
     "!harmony/**/oh_modules",
+    "!src/__tests__",
     "jestSetup.js"
   ],
   "dependencies": {
@@ -98,10 +99,10 @@
     "tslib": "2.4.0"
   },
   "codegenConfig": {
-      "name": "RNFlashListSpec",
-      "type": "all",
-      "jsSrcsDir": "src/fabric"
-    },
+    "name": "RNFlashListSpec",
+    "type": "all",
+    "jsSrcsDir": "src/fabric"
+  },
   "react-native-builder-bob": {
     "source": "src",
     "output": "lib",
